@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textToggle component tests snapshot tests should render correctly 1`] = `
+<div
+  className="TextToggleContainer-twitter-alike-social-media__sc-oz9uiz-0 isqEII"
+  data-testid="TextToggle"
+>
+  <button
+    className="ButtonContainer-twitter-alike-social-media__sc-1bqjegs-0 dLbeGW TextToggleActiveButton-twitter-alike-social-media__sc-oz9uiz-1 jwXQve"
+    data-testid="Button"
+    disabled={false}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="MD"
+    type="button"
+  >
+    teste1
+  </button>
+  <button
+    className="ButtonContainer-twitter-alike-social-media__sc-1bqjegs-0 dLbeGW TextToggleActiveButton-twitter-alike-social-media__sc-oz9uiz-1 TextToggleButton-twitter-alike-social-media__sc-oz9uiz-2 jwXQve eUAzmR"
+    data-testid="Button"
+    disabled={false}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="MD"
+    type="button"
+  >
+    teste2
+  </button>
+  <button
+    className="ButtonContainer-twitter-alike-social-media__sc-1bqjegs-0 dLbeGW TextToggleActiveButton-twitter-alike-social-media__sc-oz9uiz-1 TextToggleButton-twitter-alike-social-media__sc-oz9uiz-2 jwXQve eUAzmR"
+    data-testid="Button"
+    disabled={false}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="MD"
+    type="button"
+  >
+    teste3
+  </button>
+</div>
+`;
