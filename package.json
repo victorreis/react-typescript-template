@@ -1,16 +1,15 @@
 {
-  "name": "twitter-alike-social-media",
+  "name": "react-typescript-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Social media application similar to Twitter, but just with the very basic features.",
+  "description": "React TypeScript Template.",
   "author": "victorreis <v.crisostomo.reis@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victorreis/twitter-alike-social-media.git"
+    "url": "git+https://github.com/victorreis/react-typescript-template.git"
   },
   "keywords": [
-    "twitter",
     "frontend",
     "react",
     "TypeScript",
@@ -19,7 +18,7 @@
     "practices"
   ],
   "bugs": {
-    "url": "https://github.com/victorreis/twitter-alike-social-media/issues"
+    "url": "https://github.com/victorreis/react-typescript-template/issues"
   },
   "scripts": {
     "prepare": "husky install",
