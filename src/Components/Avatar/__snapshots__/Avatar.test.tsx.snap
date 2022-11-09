@@ -2,14 +2,14 @@
 
 exports[`avatar component tests snapshot tests should render correctly 1`] = `
 <div
-  className="AvatarContainer-twitter-alike-social-media__sc-ne4tqs-0 dwSceS"
+  className="AvatarContainer-react-typescript-template__sc-1epr2e2-0 hcjWwo"
   data-testid="Avatar"
   onClick={[Function]}
   size="MD"
 >
   <img
     alt="Victor Reis's avatar photo."
-    className="AvatarImage-twitter-alike-social-media__sc-ne4tqs-1 cdAMXQ"
+    className="AvatarImage-react-typescript-template__sc-1epr2e2-1 eZiMMm"
     data-testid="Avatar_image"
     onError={[Function]}
     size="MD"

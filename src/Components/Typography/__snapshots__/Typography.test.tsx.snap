@@ -2,7 +2,7 @@
 
 exports[`typography component tests snapshot tests should render correctly 1`] = `
 <span
-  className="TypographyContainer-twitter-alike-social-media__sc-1rk4wyq-0 llowaZ"
+  className="TypographyContainer-react-typescript-template__sc-foyag6-0 cBRKtu"
   data-testid="Typography"
 >
   text

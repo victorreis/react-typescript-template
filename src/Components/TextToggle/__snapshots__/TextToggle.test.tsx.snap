@@ -2,11 +2,11 @@
 
 exports[`textToggle component tests snapshot tests should render correctly 1`] = `
 <div
-  className="TextToggleContainer-twitter-alike-social-media__sc-oz9uiz-0 isqEII"
+  className="TextToggleContainer-react-typescript-template__sc-18txco-0 lctGez"
   data-testid="TextToggle"
 >
   <button
-    className="ButtonContainer-twitter-alike-social-media__sc-1bqjegs-0 dLbeGW TextToggleActiveButton-twitter-alike-social-media__sc-oz9uiz-1 jwXQve"
+    className="ButtonContainer-react-typescript-template__sc-yih1da-0 gVICZP TextToggleActiveButton-react-typescript-template__sc-18txco-1 bYcXAZ"
     data-testid="Button"
     disabled={false}
     onClick={[Function]}
@@ -18,7 +18,7 @@ exports[`textToggle component tests snapshot tests should render correctly 1`] =
     teste1
   </button>
   <button
-    className="ButtonContainer-twitter-alike-social-media__sc-1bqjegs-0 dLbeGW TextToggleActiveButton-twitter-alike-social-media__sc-oz9uiz-1 TextToggleButton-twitter-alike-social-media__sc-oz9uiz-2 jwXQve eUAzmR"
+    className="ButtonContainer-react-typescript-template__sc-yih1da-0 gVICZP TextToggleActiveButton-react-typescript-template__sc-18txco-1 TextToggleButton-react-typescript-template__sc-18txco-2 bYcXAZ bopikG"
     data-testid="Button"
     disabled={false}
     onClick={[Function]}
@@ -30,7 +30,7 @@ exports[`textToggle component tests snapshot tests should render correctly 1`] =
     teste2
   </button>
   <button
-    className="ButtonContainer-twitter-alike-social-media__sc-1bqjegs-0 dLbeGW TextToggleActiveButton-twitter-alike-social-media__sc-oz9uiz-1 TextToggleButton-twitter-alike-social-media__sc-oz9uiz-2 jwXQve eUAzmR"
+    className="ButtonContainer-react-typescript-template__sc-yih1da-0 gVICZP TextToggleActiveButton-react-typescript-template__sc-18txco-1 TextToggleButton-react-typescript-template__sc-18txco-2 bYcXAZ bopikG"
     data-testid="Button"
     disabled={false}
     onClick={[Function]}
