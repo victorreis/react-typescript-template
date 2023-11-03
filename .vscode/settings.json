@@ -65,6 +65,10 @@
     "**/dist": true
   },
   "search.useIgnoreFiles": true,
+  "stylelint.config": null,
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "postcss", "scss", "typescript"],
+  "stylelint.reportNeedlessDisables": true,
   "tsimporter.filesToScan": ["src/**/*.ts", "src/**/*.tsx"],
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.tsdk": "node_modules/typescript/lib"
