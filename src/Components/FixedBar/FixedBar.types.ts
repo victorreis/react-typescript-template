@@ -8,7 +8,7 @@ export const availableJustifyContents = [
   'space-around',
   'space-evenly',
 ] as const;
-export type JustifyContent = typeof availableJustifyContents[number];
+export type JustifyContent = (typeof availableJustifyContents)[number];
 
 export interface RequiredFixedBarProps {
   /**
@@ -33,4 +33,4 @@ export type FixedBarProps = RequiredFixedBarProps &
   TestProps &
   Omit<React.HTMLAttributes<HTMLDivElement>, 'children'>;
 
-export type FixedBarStyleProps = Required<DefaultFixedBarProps>;
+export type FixedBarStyleProps = { $justifyContent: JustifyContent };

@@ -5,8 +5,8 @@ import { Typography } from '../Typography';
 import {
   AvatarContainerStyleProps,
   AvatarSize,
+  AvatarSizeStyleProps,
   AvatarSizes,
-  AvatarStyleProps,
 } from './Avatar.types';
 
 export const avatarDimensions: AvatarSizes = {
@@ -15,21 +15,21 @@ export const avatarDimensions: AvatarSizes = {
   LG: 100,
 };
 
-const getAvatarDimensions = ({ size }: { size: AvatarSize }): CSSObject => {
+const getAvatarDimensions = ({ $size }: { $size: AvatarSize }): CSSObject => {
   return {
-    width: avatarDimensions[size],
-    height: avatarDimensions[size],
+    width: avatarDimensions[$size],
+    height: avatarDimensions[$size],
   };
 };
 
 const getAvatarContainerDimensions = ({
-  size,
+  $size,
 }: {
-  size: AvatarSize;
+  $size: AvatarSize;
 }): CSSObject => {
   return {
-    width: avatarDimensions[size] + 4,
-    height: avatarDimensions[size] + 4,
+    width: avatarDimensions[$size] + 4,
+    height: avatarDimensions[$size] + 4,
   };
 };
 
@@ -41,21 +41,21 @@ export const AvatarContainer = styled.div<AvatarContainerStyleProps>`
   place-items: center;
   box-sizing: border-box;
   padding: 2px;
-  cursor: ${({ isAvatarClickable }) =>
-    isAvatarClickable ? 'pointer' : undefined};
+  cursor: ${({ $isAvatarClickable }) =>
+    $isAvatarClickable ? 'pointer' : undefined};
 
   ${getAvatarContainerDimensions};
 `;
 
-export const AvatarImage = styled.img<AvatarStyleProps>`
+export const AvatarImage = styled.img<AvatarSizeStyleProps>`
   vertical-align: middle;
   border-radius: 50%;
   ${getAvatarDimensions}
 `;
 
-export const AvatarInitials = styled(Typography)<AvatarStyleProps>`
-  font-size: ${({ size }: { size: AvatarSize }) =>
-    toPx(avatarDimensions[size] * 0.67)};
+export const AvatarInitials = styled(Typography)<AvatarSizeStyleProps>`
+  font-size: ${({ $size }: { $size: AvatarSize }) =>
+    toPx(avatarDimensions[$size] * 0.67)};
   color: red;
-  font-family: Impact;
+  font-family: Impact, sans-serif;
 `;

@@ -18,7 +18,7 @@ export const Tab: React.FC<TabProps> = (props): JSX.Element => {
 
   return (
     <TabContainer
-      active={active}
+      $active={active}
       data-testid={testID}
       style={style}
       {...others}

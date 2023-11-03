@@ -4,7 +4,7 @@ import { Size } from '../../Theme/Types/Sizes.types';
 export const availableAvatarSize: ReadonlyArray<
   Extract<Size, 'SM' | 'MD' | 'LG'>
 > = ['SM', 'MD', 'LG'] as const;
-export type AvatarSize = typeof availableAvatarSize[number];
+export type AvatarSize = (typeof availableAvatarSize)[number];
 export type AvatarSizes = Record<AvatarSize, number>;
 
 export interface AvatarClickProps {
@@ -53,7 +53,11 @@ export type AvatarProps = RequiredAvatarProps &
   TestProps &
   Omit<React.HTMLAttributes<HTMLImageElement>, 'children' | 'onClick'>;
 
-export type AvatarContainerStyleProps = Required<
-  DefaultAvatarProps & Pick<AvatarClickProps, 'isAvatarClickable'>
->;
-export type AvatarStyleProps = Required<DefaultAvatarProps>;
+export type AvatarContainerStyleProps = {
+  $isAvatarClickable: boolean;
+  $size: AvatarSize;
+};
+
+export type AvatarSizeStyleProps = {
+  $size: AvatarSize;
+};

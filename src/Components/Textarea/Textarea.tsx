@@ -49,10 +49,10 @@ const TextareaComponent: ForwardRefRenderFunction<
   return (
     <StyledTextarea
       ref={ref}
+      $resizable={resizable}
       data-testid={testID}
       maxLength={maxLength}
       onChange={handleChange}
-      resizable={resizable}
       rows={rows}
       value={value}
       {...others}

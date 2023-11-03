@@ -2,11 +2,11 @@
 
 exports[`textToggle component tests snapshot tests should render correctly 1`] = `
 <div
-  className="TextToggleContainer-react-typescript-template__sc-18txco-0 lctGez"
+  className="TextToggleContainer-react-typescript-template__sc-18txco-0 KmQAq"
   data-testid="TextToggle"
 >
   <button
-    className="ButtonContainer-react-typescript-template__sc-yih1da-0 gVICZP TextToggleActiveButton-react-typescript-template__sc-18txco-1 bYcXAZ"
+    className="ButtonContainer-react-typescript-template__sc-yih1da-0 Crivp TextToggleActiveButton-react-typescript-template__sc-18txco-1 fnsZfi"
     data-testid="Button"
     disabled={false}
     onClick={[Function]}
@@ -18,7 +18,7 @@ exports[`textToggle component tests snapshot tests should render correctly 1`] =
     teste1
   </button>
   <button
-    className="ButtonContainer-react-typescript-template__sc-yih1da-0 gVICZP TextToggleActiveButton-react-typescript-template__sc-18txco-1 TextToggleButton-react-typescript-template__sc-18txco-2 bYcXAZ bopikG"
+    className="ButtonContainer-react-typescript-template__sc-yih1da-0 Crivp TextToggleActiveButton-react-typescript-template__sc-18txco-1 TextToggleButton-react-typescript-template__sc-18txco-2 fnsZfi dLcSMb"
     data-testid="Button"
     disabled={false}
     onClick={[Function]}
@@ -30,7 +30,7 @@ exports[`textToggle component tests snapshot tests should render correctly 1`] =
     teste2
   </button>
   <button
-    className="ButtonContainer-react-typescript-template__sc-yih1da-0 gVICZP TextToggleActiveButton-react-typescript-template__sc-18txco-1 TextToggleButton-react-typescript-template__sc-18txco-2 bYcXAZ bopikG"
+    className="ButtonContainer-react-typescript-template__sc-yih1da-0 Crivp TextToggleActiveButton-react-typescript-template__sc-18txco-1 TextToggleButton-react-typescript-template__sc-18txco-2 fnsZfi dLcSMb"
     data-testid="Button"
     disabled={false}
     onClick={[Function]}

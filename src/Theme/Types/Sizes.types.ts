@@ -10,7 +10,7 @@ const availableSizes = [
   'XL4',
   'XL5',
 ] as const;
-export type Size = typeof availableSizes[number];
+export type Size = (typeof availableSizes)[number];
 export type Sizes = Record<Size, number>;
 
 export const availableScreenBreakpoints = [
@@ -20,7 +20,7 @@ export const availableScreenBreakpoints = [
   'lg',
   'xl',
 ] as const;
-export type ScreenBreakpoint = typeof availableScreenBreakpoints[number];
+export type ScreenBreakpoint = (typeof availableScreenBreakpoints)[number];
 export const screenBreakpoints: Record<ScreenBreakpoint, number> = {
   xs: 320,
   sm: 481,
@@ -37,7 +37,7 @@ export const screenBreakpointRanges: Record<ScreenBreakpoint, string> = {
 };
 
 export const availableIconSizes = ['sm', 'md', 'lg'] as const;
-export type IconSize = typeof availableIconSizes[number];
+export type IconSize = (typeof availableIconSizes)[number];
 export const iconSizes: Record<IconSize, string> = {
   sm: '1rem',
   md: '1.67rem',

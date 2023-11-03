@@ -9,7 +9,7 @@ const availableTypographyTags = [
   'span',
   'a',
 ] as const;
-export type TypographyTag = typeof availableTypographyTags[number];
+export type TypographyTag = (typeof availableTypographyTags)[number];
 
 const availableTypographyVariants = [
   'h1',
@@ -26,7 +26,7 @@ const availableTypographyVariants = [
   'link',
   'button',
 ] as const;
-export type TypographyVariant = typeof availableTypographyVariants[number];
+export type TypographyVariant = (typeof availableTypographyVariants)[number];
 
 export const typographyVariantToTag: Record<TypographyVariant, TypographyTag> =
   {
@@ -51,7 +51,7 @@ const availableTypographyStyles = [
   'fontWeight',
   'lineHeight',
 ] as const;
-export type TypographyStyle = typeof availableTypographyStyles[number];
+export type TypographyStyle = (typeof availableTypographyStyles)[number];
 
 export type TypographyStyles = Record<TypographyStyle, string>;
 

@@ -5,11 +5,11 @@ exports[`modal component tests snapshot tests should render correctly 1`] = `
   data-testid="Modal"
 >
   <div
-    className="ModalContentContainer-react-typescript-template__sc-1rmrpv9-1 ksXnWK"
+    className="ModalContentContainer-react-typescript-template__sc-1rmrpv9-1 frVEAP"
     data-testid="Modal_ModalContentContainer"
   >
     <button
-      className="CloseButtonContainer-react-typescript-template__sc-4ah3dq-1 bUZNCG"
+      className="CloseButtonContainer-react-typescript-template__sc-4ah3dq-1 gVejer"
       data-testid="CloseButton"
       onClick={[Function]}
     >
@@ -38,13 +38,13 @@ exports[`modal component tests snapshot tests should render correctly 1`] = `
         />
       </svg>
       <div
-        className="TransparentContainer-react-typescript-template__sc-4ah3dq-0 cifIXh"
+        className="TransparentContainer-react-typescript-template__sc-4ah3dq-0 fGsrKm"
       />
     </button>
     text
   </div>
   <div
-    className="ModalBackdropContainer-react-typescript-template__sc-1rmrpv9-0 dfVlkz"
+    className="ModalBackdropContainer-react-typescript-template__sc-1rmrpv9-0 bHFZXq"
     data-testid="Modal_ModalBackdropContainer"
     onClick={[Function]}
   />

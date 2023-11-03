@@ -57,7 +57,7 @@ describe('textarea component tests', () => {
       expect.assertions(1);
       const instance = setup().renderRTR().root;
       const element = instance.findByProps({
-        resizable: textareaDefaults.resizable,
+        $resizable: textareaDefaults.resizable,
       });
 
       expect(element).toBeTruthy();

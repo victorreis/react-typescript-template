@@ -7,8 +7,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const ContainerScroll = styled.div`
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden scroll;
 
   &::-webkit-scrollbar {
     width: 10px;
@@ -17,12 +16,15 @@ export const ContainerScroll = styled.div`
   &::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.background.default.normal};
   }
+
   &::-webkit-scrollbar-track {
     background: ${({ theme }) => theme.colors.background.default.light};
   }
+
   &::-webkit-scrollbar-thumb:hover {
     background: ${({ theme }) => theme.colors.background.default.darker}cc;
   }
+
   &::-webkit-scrollbar-track:hover {
     background: ${({ theme }) => theme.colors.background.default.light}cc;
   }
@@ -36,8 +38,7 @@ export const Container = styled.div`
   height: 100%;
   box-sizing: border-box;
   background-color: ${({ theme }) => theme.colors.background.default.darkest};
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden hidden;
 `;
 
 export const PageContainer = styled(ContainerScroll)`

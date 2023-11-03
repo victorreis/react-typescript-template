@@ -57,7 +57,7 @@ describe('avatar component tests', () => {
       expect.assertions(1);
       const instance = setup().renderRTR().root;
       const element = instance.findByProps({
-        size: avatarDefaults.size,
+        $size: avatarDefaults.size,
       });
 
       expect(element).toBeTruthy();

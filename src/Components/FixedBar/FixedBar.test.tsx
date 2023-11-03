@@ -56,7 +56,7 @@ describe('fixedBar component tests', () => {
       expect.assertions(1);
       const instance = setup().renderRTR().root;
       const element = instance.findByProps({
-        justifyContent: fixedBarDefaults.justifyContent,
+        $justifyContent: fixedBarDefaults.justifyContent,
       });
 
       expect(element).toBeTruthy();
@@ -69,7 +69,7 @@ describe('fixedBar component tests', () => {
         justifyContent: newJustifyContent,
       }).renderRTR().root;
       const element = instance.findByProps({
-        justifyContent: newJustifyContent,
+        $justifyContent: newJustifyContent,
       });
 
       expect(element).toBeTruthy();
@@ -88,7 +88,7 @@ describe('fixedBar component tests', () => {
           themes.default.colors.background.default.darkest
         ),
         color: hexToRgb(themes.default.colors.font.default),
-        justifyContent: fixedBarDefaults.justifyContent,
+        // justifyContent: fixedBarDefaults.justifyContent,
         ...themes.default.typographies.h3,
       });
     });

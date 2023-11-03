@@ -19,8 +19,8 @@ export const FixedBar: React.FC<FixedBarProps> = (props): JSX.Element => {
 
   return (
     <FixedBarContainer
+      $justifyContent={justifyContent}
       data-testid={testID}
-      justifyContent={justifyContent}
       style={style}
       {...others}
     >

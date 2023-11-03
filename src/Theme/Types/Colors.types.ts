@@ -6,7 +6,7 @@ const availableColorTypes = [
   'background',
   'font',
 ] as const;
-export type ColorType = typeof availableColorTypes[number];
+export type ColorType = (typeof availableColorTypes)[number];
 
 const availableColorIntensities = [
   'lightest',
@@ -17,7 +17,7 @@ const availableColorIntensities = [
   'darker',
   'darkest',
 ] as const;
-export type ColorIntensity = typeof availableColorIntensities[number];
+export type ColorIntensity = (typeof availableColorIntensities)[number];
 export type ColorIntensities = Record<ColorIntensity, string>;
 
 export const availableMainColors = [
@@ -26,7 +26,7 @@ export const availableMainColors = [
   'detail',
   'effect',
 ] as const;
-export type MainColor = typeof availableMainColors[number];
+export type MainColor = (typeof availableMainColors)[number];
 export type MainColors = Record<MainColor, ColorIntensities>;
 
 const availableFeedbackColors = [
@@ -35,15 +35,15 @@ const availableFeedbackColors = [
   'info',
   'success',
 ] as const;
-export type FeedbackColor = typeof availableFeedbackColors[number];
+export type FeedbackColor = (typeof availableFeedbackColors)[number];
 export type FeedbackColors = Record<FeedbackColor, ColorIntensities>;
 
 const availableCommonColors = ['black', 'white'] as const;
-export type CommonColor = typeof availableCommonColors[number];
+export type CommonColor = (typeof availableCommonColors)[number];
 export type CommonColors = Record<CommonColor, string>;
 
 const availableBackgroundColors = ['default', 'highContrast'] as const;
-export type BackgroundColor = typeof availableBackgroundColors[number];
+export type BackgroundColor = (typeof availableBackgroundColors)[number];
 export type BackgroundColors = {
   default: ColorIntensities;
   highContrast: ColorIntensities;
@@ -58,7 +58,7 @@ const availableFontColors = [
   'caption',
   'hint',
 ] as const;
-export type FontColor = typeof availableFontColors[number];
+export type FontColor = (typeof availableFontColors)[number];
 export type FontColors = Record<FontColor, string>;
 
 export type Colors = {

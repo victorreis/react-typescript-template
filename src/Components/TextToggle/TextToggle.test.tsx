@@ -93,7 +93,7 @@ describe('textToggle component tests', () => {
       });
       expect(element2).toHaveStyle({
         backgroundColor: hexToRgb(
-          themes.default.colors.background.default.light
+          themes.default.colors.background.default.dark
         ),
       });
 
@@ -107,7 +107,7 @@ describe('textToggle component tests', () => {
       });
       expect(element2).toHaveStyle({
         backgroundColor: hexToRgb(
-          themes.default.colors.background.default.light
+          themes.default.colors.background.default.dark
         ),
       });
     });

@@ -54,7 +54,7 @@ describe('tab component tests', () => {
       expect.assertions(1);
       const instance = setup().renderRTR().root;
       const element = instance.findByProps({
-        active: tabDefaults.active,
+        $active: tabDefaults.active,
       });
 
       expect(element).toBeTruthy();
@@ -66,7 +66,7 @@ describe('tab component tests', () => {
         ...requiredProps,
         active: newActive,
       }).renderRTR().root;
-      const element = instance.findByProps({ active: newActive });
+      const element = instance.findByProps({ $active: newActive });
 
       expect(element).toBeTruthy();
     });

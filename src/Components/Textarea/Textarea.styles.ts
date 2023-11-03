@@ -6,8 +6,8 @@ import { TextareaStyleProps } from './Textarea.types';
 export const StyledTextarea = styled.textarea<TextareaStyleProps>`
   box-sizing: border-box;
   padding: 0.5rem;
-  resize: none;
   flex: 1;
+  resize: ${({ $resizable }) => ($resizable ? 'vertical' : 'none')};
 
   border-width: 1px;
   border-color: ${({ theme }) => theme.colors.main.effect.normal}55;

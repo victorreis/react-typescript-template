@@ -2,7 +2,7 @@
 
 exports[`fixedBar component tests snapshot tests should render correctly 1`] = `
 <div
-  className="FixedBarContainer-react-typescript-template__sc-1sso6z8-0 iRJnDi"
+  className="FixedBarContainer-react-typescript-template__sc-1sso6z8-0 bNFPRw"
   data-testid="FixedBar"
 >
   text

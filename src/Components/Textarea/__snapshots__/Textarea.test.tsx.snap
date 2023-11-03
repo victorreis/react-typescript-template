@@ -2,7 +2,7 @@
 
 exports[`textarea component tests snapshot tests should render correctly 1`] = `
 <textarea
-  className="StyledTextarea-react-typescript-template__sc-1v81piw-0 gEijny"
+  className="StyledTextarea-react-typescript-template__sc-1v81piw-0 ucPhU"
   data-testid="Textarea"
   onChange={[Function]}
   rows={4}

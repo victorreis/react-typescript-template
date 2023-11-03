@@ -50,10 +50,10 @@ export const Avatar: React.FC<AvatarProps> = (props): JSX.Element => {
     if (!imageLoadingError) {
       return (
         <AvatarImage
+          $size={size}
           alt={description}
           data-testid={`${testID}_image`}
           onError={handleImageLoadingError}
-          size={size}
           src={thumbnailUrl}
           title={description}
           {...others}
@@ -68,8 +68,8 @@ export const Avatar: React.FC<AvatarProps> = (props): JSX.Element => {
     if (imageLoadingError) {
       return (
         <AvatarInitials
+          $size={size}
           data-testid={`${testID}_initials`}
-          size={size}
           variant="body1"
           {...others}
         >
@@ -82,10 +82,10 @@ export const Avatar: React.FC<AvatarProps> = (props): JSX.Element => {
 
   return (
     <AvatarContainer
+      $isAvatarClickable={Boolean(isAvatarClickable)}
+      $size={size}
       data-testid={testID}
-      isAvatarClickable={Boolean(isAvatarClickable)}
       onClick={handleClick}
-      size={size}
       style={style}
     >
       {renderImage()}

@@ -22,5 +22,5 @@ export const FixedBarContainer = styled.div<FixedBarStyleProps>`
   color: ${({ theme }) => theme.colors.font.default};
   ${({ theme }) => theme.typographies.h3};
 
-  justify-content: ${({ justifyContent }) => justifyContent};
+  justify-content: ${({ $justifyContent }) => $justifyContent};
 `;

@@ -4,13 +4,13 @@ import { TabStyleProps } from './Tab.types';
 
 const getTabActiveBorder = ({
   theme,
-  active,
+  $active,
 }: {
   theme: DefaultTheme;
-  active: boolean;
+  $active: boolean;
 }): CSSObject => {
   return {
-    ...(active && {
+    ...($active && {
       borderBottomWidth: '4px',
       borderBottomStyle: 'solid',
       borderBottomColor: theme.colors.background.default.light,

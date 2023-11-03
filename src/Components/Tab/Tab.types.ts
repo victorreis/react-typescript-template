@@ -23,4 +23,4 @@ export type TabProps = RequiredTabProps &
   TestProps &
   Omit<React.HTMLAttributes<HTMLDivElement>, 'children'>;
 
-export type TabStyleProps = Required<DefaultTabProps>;
+export type TabStyleProps = { $active: boolean };

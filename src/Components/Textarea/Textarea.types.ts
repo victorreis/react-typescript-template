@@ -43,4 +43,4 @@ export type TextareaProps = RequiredTextareaProps &
     'children' | 'onChange' | 'rows' | 'maxLength'
   >;
 
-export type TextareaStyleProps = Required<DefaultTextareaProps>;
+export type TextareaStyleProps = { $resizable: boolean };
