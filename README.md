@@ -37,7 +37,7 @@ The main objective of this project is to practice some development skills throug
 - YAGNI: “You Ain’t gonna need it”
 - DRY: “Do not Repeat Yourself”
 
-## Features
+## Features and requirements
 
 - ...
 
