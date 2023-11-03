@@ -3,14 +3,13 @@
 ## Summary
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Features and requirements](#features-and-requirements)
 - [Bonus features and implementations](#bonus-features-and-implementations)
 - [Data consumed](#data-consumed)
 - [Installation](#installation)
 - [Running](#running)
 - [Another scripts](#another-scripts)
-- [Planning](#planning)
-- [Critique](#clitique)
+- [Critique](#critique)
 
 ## Introduction
 
@@ -75,3 +74,7 @@ The main objective of this project is to practice some development skills throug
 - Build: `yarn build`
 - Tests: `yarn test`
 - Scaffolding: `yarn g`
+
+# Critique
+
+- It could be done this or that way...
