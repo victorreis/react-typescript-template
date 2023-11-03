@@ -46,8 +46,6 @@ export const CustomThemeProvider: React.FC<CustomThemeProviderProps> = (
 
   return (
     <ThemeContext.Provider data-testid={testID} value={providerValue}>
-      {/* waiting for a new lib version compatible with React 18 */}
-      {/* @ts-ignore */}
       <ThemeProvider theme={theme}>
         <BrowserRouter>{children}</BrowserRouter>
       </ThemeProvider>

@@ -11,8 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 export const App: React.FC = (): JSX.Element => {
   return (
     <CustomThemeProvider>
-      {/* waiting for a new lib version compatible with React 18 */}
-      {/* @ts-ignore */}
       <GlobalStyle />
       <ToastContainer
         autoClose={CLOSE_AFTER}
