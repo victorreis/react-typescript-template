@@ -8,6 +8,7 @@ module.exports = {
     ],
   ],
   plugins: [
+    '@babel/plugin-proposal-private-property-in-object',
     '@babel/plugin-transform-modules-commonjs',
     [
       '@babel/plugin-transform-react-jsx',
