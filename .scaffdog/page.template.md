@@ -27,7 +27,7 @@ export const {{ inputs.value | camel }}Defaults: Required<TestProps> = {
 export const {{ inputs.value | pascal }}: React.FC = (): JSX.Element => {
   return (
     <PageContainer data-testid={ {{ inputs.value | camel }}Defaults.testID}>
-      teste
+      {{ inputs.value | pascal }} test
     </PageContainer>
   );
 };
