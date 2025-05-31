@@ -64,7 +64,7 @@ import { API_URL, APPLICATION_ERROR } from '../../Config/constants';
 import { {{ inputs.value | camel }}Service } from './{{ inputs.value | pascal }}.service';
 import { {{ inputs.value | pascal }} } from './{{ inputs.value | pascal }}.types';
 
-describe('{{ inputs.value | pascal }} service tests', () => {
+describe('{{ inputs.value | camel }} service tests', () => {
   jest.spyOn(global.console, 'error').mockImplementation();
 
   const {{ inputs.value | camel }}sUrl = `${API_URL}/{{ inputs.value | camel }}s`;

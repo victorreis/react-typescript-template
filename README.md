@@ -49,7 +49,7 @@ The main objective of this project is to practice some development skills throug
 - Global tests configuration that provides a simple and standardized way to render the components through the React Testing Renderer or through React Testing Library, with the theme provider already embedded.
 - Create a thematization structure that allows you to create how many themes that you want.
 - Create a customized theme interface with some structures implemented (borders, colors and typography).
-- Implements responsiveness to allow any screen size by using @media queries and the Grid Layout.
+- Implements responsiveness to allow any screen size by using @media queries, flexbox and Grid Layout.
 - Usage of React Context, React Hooks.
 - Usage of Typescript generics, union type and interface manipulation and interesting Type utilities.
 
@@ -59,7 +59,7 @@ The main objective of this project is to practice some development skills throug
 
 ## Installation
 
-- Make sure that you have nodejs installed in you computer. Preference: node 16.16.0.
+- Make sure that you have nodejs installed in you computer. Preference: node 20.9.0.
 - `yarn install` if you have the yarn installed globally or `npx yarn install`, if not.
 
 ## Running
@@ -75,6 +75,6 @@ The main objective of this project is to practice some development skills throug
 - Tests: `yarn test`
 - Scaffolding: `yarn g`
 
-# Critique
+## Critique
 
 - It could be done this or that way...
